@@ -21,6 +21,7 @@ INSERT INTO `job_settings` (`job_name`, `job_type`, `job_class`, `cron`, `shardi
 就能发现2个job都自动运行了。
 
 ## 实际生产部署
-需要注意如果使用了spring bean，需要将相关packae加入到application.properties中的ComponentScan.basePackages中，整个项目可以以springboot uber jar模式部署。
-
+需要注意如果使用了spring bean，需要将相关packae加入到application.properties中的ComponentScan.basePackages中，整个项目可以 
+ 1. 以springboot uber jar模式直接部署。
+ 2. 如果有多个项目，可以将项目的非uber jar放到autodeploy 的./jars目录下
  

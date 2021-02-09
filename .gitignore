@@ -34,5 +34,6 @@ logs/
 .mvn/
 mvnw.cmd
 mvnw
+testjar/
 
 .gitignore.bak
